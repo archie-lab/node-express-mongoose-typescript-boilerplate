@@ -9,7 +9,7 @@ import httpStatus from 'http-status';
 import config from './config/config';
 import { morgan } from './modules/logger';
 import { jwtStrategy } from './modules/auth';
-import { authLimiter } from './modules/utils';
+import {       authLimiter } from './modules/utils';
 import { ApiError, errorConverter, errorHandler } from './modules/errors';
 import routes from './routes/v1';
 
